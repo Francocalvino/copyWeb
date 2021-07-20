@@ -1,0 +1,24 @@
+/* main {
+    position: relative;
+    display: flex;
+} */
+main {
+    background-color: rgb(138, 134, 134);
+    margin: 4%;
+    height: 500px;
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+
+.img img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.about{
+    display: inline-block;
+    width: 25%;
+}
