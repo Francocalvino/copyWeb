@@ -3,7 +3,6 @@
     display: flex;
 } */
 .containerCenter{
-    background-color: white;
     margin: 4%;
     height: 50vh;
     display:flex;
@@ -30,6 +29,7 @@ h3{
     
     font-size:1.5rem;
     font-weight:1rem;
+    letter-spacing: 0.08rem;
     
 }
 h4{
@@ -74,4 +74,17 @@ h4{
 .ourlist img{
     width: 3.005vw;
     margin-top: 5%;
+}
+
+.categories {
+    background-color:var(--white);
+    display: flex;
+    align-items:center;
+    width: 100%;
+    height: 15vh;;
+}
+.categories p{
+    margin-left: 16%;
+    font-size: 1.5rem;
+    letter-spacing: 0.08rem;
 }
