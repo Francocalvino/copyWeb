@@ -19,10 +19,10 @@
 
 
 .img img{
-    width: 22vw;
-    height: 38vh;
+    width: 300px;
+    height: 330px;
     object-fit:cover;
-    margin-top: 13%;
+    margin-top: ;
 }
 
 h3{
@@ -41,20 +41,22 @@ h4{
 .about{
     display: inline-block;
     width: 25%;
-    
+    height: ;
     letter-spacing: 2%;
     margin-top: 0%;
     margin-left: 10%;
+    max-height: 100px;
 }
-.about p{
-    margin-top: 10%;
-    letter-spacing:1%;
+.description {
+    background-color: goldenrod;
+    max-height:100%;
 }
+
 
 .center{
     display: inline;
     justify-content:right;
-    margin-top: 4.7%;
+    margin-top: 4%;
     width: 13%;
 }
 
@@ -74,17 +76,4 @@ h4{
 .ourlist img{
     width: 3.005vw;
     margin-top: 5%;
-}
-
-.categories {
-    background-color:var(--white);
-    display: flex;
-    align-items:center;
-    width: 100%;
-    height: 15vh;;
-}
-.categories p{
-    margin-left: 16%;
-    font-size: 1.5rem;
-    letter-spacing: 0.08rem;
 }

@@ -1,6 +1,8 @@
 @import url(header.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,500&display=swap');
 @import url(main.css);
+@import url(footer.css);
+@import url(categories.css);
 
 :root {
   --grey: #4A4A4A;
